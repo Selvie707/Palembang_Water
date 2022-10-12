@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/activity1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Palembang"
+        android:textColor="@color/white"
+        android:textSize="52sp"
+        android:textStyle="bold"
+        android:layout_marginTop="122dp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water"
+        android:textColor="@color/white"
+        android:textSize="52sp"
+        android:textStyle="bold"
+
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menyediakan air bersih, sehat, dan terjaga
+        kualitasnya"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        android:layout_marginLeft="16dp"
+        />
+
+    <Button
+        android:id="@+id/btn_signupmain"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#17318D"
+        app:cornerRadius="32dp"
+        android:padding="16dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/btn_loginmain"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="#17318D"
+        android:backgroundTint="#FFFFFF"
+        app:cornerRadius="32dp"
+        android:padding="16dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit us"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="62dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/btn_linkmain"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:text="WWW.PALEMBANG.GO.ID"
+        android:textColor="#17318D"
+        android:backgroundTint="#FFFFFF"
+        app:cornerRadius="32dp"
+        android:padding="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
