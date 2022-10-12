@@ -25,7 +25,7 @@ public class ResultActivityy extends AppCompatActivity {
         btn_logOut = findViewById(R.id.btn_logOut);
 
         Intent intent = getIntent();
-        tvnama.setText(intent.getStringExtra("varName"));
+        tvnama.setText(intent.getStringExtra("varNama"));
         tvnegara.setText(intent.getStringExtra("varNegara"));
         tvemail.setText(intent.getStringExtra("varEmail"));
 

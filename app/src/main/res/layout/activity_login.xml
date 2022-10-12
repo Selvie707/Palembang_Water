@@ -36,7 +36,7 @@
         />
 
     <EditText
-        android:id="@+id/et_usernameRegister"
+        android:id="@+id/et_usernameLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:drawablePadding="8dp"
@@ -72,7 +72,7 @@
         android:inputType="textPassword"
         android:drawableTint="#17318D"
         android:textColorHint="#1C3E1D"
-        app:layout_constraintTop_toBottomOf="@+id/et_usernameRegister"
+        app:layout_constraintTop_toBottomOf="@+id/et_usernameLogin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />

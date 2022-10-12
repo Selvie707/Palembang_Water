@@ -46,7 +46,7 @@ public class RegisterActivity extends AppCompatActivity {
                 else
                 {
                     Intent intent = new Intent(RegisterActivity.this, ResultActivityy.class);
-                    intent.putExtra("VarName", nama);
+                    intent.putExtra("varNama", nama);
                     intent.putExtra("varNegara", negara);
                     intent.putExtra("varEmail", email);
                     startActivity(intent);

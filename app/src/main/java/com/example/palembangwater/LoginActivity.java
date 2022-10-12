@@ -20,7 +20,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        et_nama = findViewById(R.id.et_usernameRegister);
+        et_nama = findViewById(R.id.et_usernameLogin);
         et_password = findViewById(R.id.et_passwordLogin);
 
         btn_logIn = findViewById(R.id.btn_loginLogin);
@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
         btn_logIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (nama.trim().equals(""))
+                if (nama.equals(""))
                 {
                     et_nama.setError("Nama harus diisi");
                 }
